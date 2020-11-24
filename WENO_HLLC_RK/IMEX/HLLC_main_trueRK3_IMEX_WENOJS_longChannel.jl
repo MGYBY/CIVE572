@@ -329,7 +329,7 @@ const qn = hn * un
 const g = 9.810
 const sine_theta = 0.05011
 const tan_theta = sine_theta / sqrt(1 - sine_theta^2)
-const cf = g * tan_theta * 2 * hn / (un^2)
+const cf = g * tan_theta * 2 * hn / (un^2) # cf revised to give no oscillations
 const epsilon = 0.01
 const period = 0.933
 
