@@ -329,7 +329,7 @@ const qn = hn * un
 const g = 9.810
 const sine_theta = 0.05011
 const tan_theta = sine_theta / sqrt(1 - sine_theta^2)
-const cf = g * sine_theta * 2 * hn / (un^2)
+const cf = g * tan_theta * 2 * hn / (un^2)
 const epsilon = 0.01
 const period = 0.933
 
@@ -374,7 +374,7 @@ Fhllc3 = Array{Float64}(undef, 2, Imax)
 Fhllc4 = Array{Float64}(undef, 2, Imax)
 ks = Array{Float64}(undef, 1, Imax)
 const sim_time = 200.0
-const co = 0.20 # Cou
+const co = 0.45 # Cou
 dt = co * dx / (1.0 * un)
 t = 0.0
 
