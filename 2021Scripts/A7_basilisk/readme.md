@@ -5,3 +5,4 @@
 
 TODO: 
 - [ ] Add passive tracer transport equation.
+- [ ] WENO scheme.
